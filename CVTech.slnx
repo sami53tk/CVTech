@@ -1,0 +1,28 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Api/">
+    <Project Path="src/Api/CVTech.Api/CVTech.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/CVTech.BuildingBlocks/CVTech.BuildingBlocks.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/ActualiteEtAbonnement/">
+    <Project Path="src/Modules/ActualiteEtAbonnement/CVTech.ActualiteEtAbonnement/CVTech.ActualiteEtAbonnement.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/AppelOffreFreelance/">
+    <Project Path="src/Modules/AppelOffreFreelance/CVTech.AppelOffreFreelance/CVTech.AppelOffreFreelance.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/CatalogueEmploi/">
+    <Project Path="src/Modules/CatalogueEmploi/CVTech.CatalogueEmploi/CVTech.CatalogueEmploi.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/GestionIdentite/">
+    <Project Path="src/Modules/GestionIdentite/CVTech.GestionIdentite/CVTech.GestionIdentite.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CVTech.ActualiteEtAbonnement.Tests/CVTech.ActualiteEtAbonnement.Tests.csproj" />
+    <Project Path="tests/CVTech.AppelOffreFreelance.Tests/CVTech.AppelOffreFreelance.Tests.csproj" />
+    <Project Path="tests/CVTech.CatalogueEmploi.Tests/CVTech.CatalogueEmploi.Tests.csproj" />
+    <Project Path="tests/CVTech.GestionIdentite.Tests/CVTech.GestionIdentite.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "/xfIMKlqxUk=",
+  "success": true,
+  "projectFilePath": "/home/rochdi/cours/dev_cloud/CVTech/src/BuildingBlocks/CVTech.BuildingBlocks/CVTech.BuildingBlocks.csproj",
+  "expectedPackageFiles": [
+    "/home/rochdi/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0/microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

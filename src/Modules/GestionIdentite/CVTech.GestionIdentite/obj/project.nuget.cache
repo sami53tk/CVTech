@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "w7+ntF3C9ug=",
+  "success": true,
+  "projectFilePath": "/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/CVTech.GestionIdentite.csproj",
+  "expectedPackageFiles": [
+    "/home/rochdi/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.11.0/fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.data.sqlite.core/10.0.0/microsoft.data.sqlite.core.10.0.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.entityframeworkcore/10.0.0/microsoft.entityframeworkcore.10.0.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.0/microsoft.entityframeworkcore.abstractions.10.0.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.0/microsoft.entityframeworkcore.analyzers.10.0.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.0/microsoft.entityframeworkcore.relational.10.0.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.entityframeworkcore.sqlite/10.0.0/microsoft.entityframeworkcore.sqlite.10.0.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/10.0.0/microsoft.entityframeworkcore.sqlite.core.10.0.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.extensions.dependencymodel/10.0.0/microsoft.extensions.dependencymodel.10.0.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.identitymodel.abstractions/8.3.0/microsoft.identitymodel.abstractions.8.3.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.3.0/microsoft.identitymodel.jsonwebtokens.8.3.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.identitymodel.logging/8.3.0/microsoft.identitymodel.logging.8.3.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/microsoft.identitymodel.tokens/8.3.0/microsoft.identitymodel.tokens.8.3.0.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.11/sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/sqlitepclraw.core/2.1.11/sqlitepclraw.core.2.1.11.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.11/sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.11/sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512",
+    "/home/rochdi/.nuget/packages/system.identitymodel.tokens.jwt/8.3.0/system.identitymodel.tokens.jwt.8.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

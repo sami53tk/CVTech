@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>CVTech.Api</RootNamespace>
+    <UserSecretsId>cvtech-api</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BuildingBlocks\CVTech.BuildingBlocks\CVTech.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\..\Modules\GestionIdentite\CVTech.GestionIdentite\CVTech.GestionIdentite.csproj" />
+    <ProjectReference Include="..\..\Modules\CatalogueEmploi\CVTech.CatalogueEmploi\CVTech.CatalogueEmploi.csproj" />
+    <ProjectReference Include="..\..\Modules\AppelOffreFreelance\CVTech.AppelOffreFreelance\CVTech.AppelOffreFreelance.csproj" />
+    <ProjectReference Include="..\..\Modules\ActualiteEtAbonnement\CVTech.ActualiteEtAbonnement\CVTech.ActualiteEtAbonnement.csproj" />
+  </ItemGroup>
+
+</Project>

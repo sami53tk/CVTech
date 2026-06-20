@@ -1,0 +1,15 @@
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/obj/Debug/net10.0/CVTech.GestionIdentite.csproj.AssemblyReference.cache
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/obj/Debug/net10.0/CVTech.GestionIdentite.GeneratedMSBuildEditorConfig.editorconfig
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/obj/Debug/net10.0/CVTech.GestionIdentite.AssemblyInfoInputs.cache
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/obj/Debug/net10.0/CVTech.GestionIdentite.AssemblyInfo.cs
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/obj/Debug/net10.0/CVTech.GestionIdentite.csproj.CoreCompileInputs.cache
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/bin/Debug/net10.0/CVTech.GestionIdentite.deps.json
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/bin/Debug/net10.0/CVTech.GestionIdentite.dll
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/bin/Debug/net10.0/CVTech.GestionIdentite.pdb
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/bin/Debug/net10.0/CVTech.BuildingBlocks.dll
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/bin/Debug/net10.0/CVTech.BuildingBlocks.pdb
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/obj/Debug/net10.0/CVTech.G.3CB614AC.Up2Date
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/obj/Debug/net10.0/CVTech.GestionIdentite.dll
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/obj/Debug/net10.0/refint/CVTech.GestionIdentite.dll
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/obj/Debug/net10.0/CVTech.GestionIdentite.pdb
+/home/rochdi/cours/dev_cloud/CVTech/src/Modules/GestionIdentite/CVTech.GestionIdentite/obj/Debug/net10.0/ref/CVTech.GestionIdentite.dll
