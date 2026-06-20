@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sudo apt-get install -y dotnet-sdk-10.0)",
+      "Bash(dotnet --version)",
+      "Bash(curl -sI https://dot.net/v1/dotnet-install.sh)",
+      "Bash(curl -sI https://builds.dotnet.microsoft.com)",
+      "Bash(apt-cache policy *)",
+      "Bash(curl -L https://dot.net/v1/dotnet-install.sh -o /tmp/dotnet-install.sh)",
+      "Bash(chmod +x /tmp/dotnet-install.sh)",
+      "Bash(/tmp/dotnet-install.sh --channel 10.0 --install-dir /home/rochdi/.dotnet)",
+      "Bash(set -e)",
+      "Bash(mkdir -p Infrastructure/Migrations)",
+      "Bash(mv Migrations/* Infrastructure/Migrations/)",
+      "Bash(rmdir Migrations)",
+      "Bash(sed -i 's/namespace CVTech.ActualiteEtAbonnement.Migrations/namespace CVTech.ActualiteEtAbonnement.Infrastructure.Migrations/' Infrastructure/Migrations/*.cs)",
+      "Bash(cat /tmp/api.log | tail -60)",
+      "Read(//tmp/**)",
+      "Bash(curl -s -i -X POST http://localhost:5298/api/auth/connexion -H \"Content-Type: application/json\" -d '{\"email\":\"admin@cvtech.local\",\"motDePasse\":\"Admin123!\"}')",
+      "Bash(curl -s -i -X POST http://localhost:5298/api/auth/inscription -H \"Content-Type: application/json\" -d '{\"email\":\"entreprise1@test.local\",\"motDePasse\":\"Test123!\",\"role\":\"Entreprise\",\"raisonSociale\":\"AcmeCorp\"}')",
+      "Bash(pkill -9 -f \"dotnet run\")",
+      "Bash(pkill -9 -f \"CVTech.Api.dll\")",
+      "Bash(mv /home/rochdi/cours/dev_cloud/CVTech/src/Modules/AppelOffreFreelance/CVTech.AppelOffreFreelance/Migrations/* /home/rochdi/cours/dev_cloud/CVTech/src/Modules/AppelOffreFreelance/CVTech.AppelOffreFreelance/Infrastructure/Migrations/)",
+      "Bash(sed -i 's/namespace CVTech.AppelOffreFreelance.Migrations/namespace CVTech.AppelOffreFreelance.Infrastructure.Migrations/' /home/rochdi/cours/dev_cloud/CVTech/src/Modules/AppelOffreFreelance/CVTech.AppelOffreFreelance/Infrastructure/Migrations/*.cs)",
+      "Bash(mv /home/rochdi/cours/dev_cloud/CVTech/src/Modules/ActualiteEtAbonnement/CVTech.ActualiteEtAbonnement/Migrations/* /home/rochdi/cours/dev_cloud/CVTech/src/Modules/ActualiteEtAbonnement/CVTech.ActualiteEtAbonnement/Infrastructure/Migrations/)",
+      "Bash(sed -i 's/namespace CVTech.ActualiteEtAbonnement.Migrations/namespace CVTech.ActualiteEtAbonnement.Infrastructure.Migrations/' /home/rochdi/cours/dev_cloud/CVTech/src/Modules/ActualiteEtAbonnement/CVTech.ActualiteEtAbonnement/Infrastructure/Migrations/*.cs)",
+      "Bash(npm --version)",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(git -C /home/rochdi/cours/dev_cloud/CVTech status --short)",
+      "Bash(git -C /home/rochdi/cours/dev_cloud/CVTech log --oneline -5)",
+      "Bash(git -C /home/rochdi/cours/dev_cloud/CVTech ls-files)",
+      "Bash(git -C /home/rochdi/cours/dev_cloud/CVTech remote -v)",
+      "Bash(git -C /home/rochdi/cours/dev_cloud/CVTech rm -r --cached src/Api/CVTech.Api/bin src/Api/CVTech.Api/obj)",
+      "Bash(git -C /home/rochdi/cours/dev_cloud/CVTech rm -r --cached src/BuildingBlocks)",
+      "Bash(git -C /home/rochdi/cours/dev_cloud/CVTech rm -r --cached src/Modules/ tests/)"
+    ]
+  }
+}
